@@ -1,0 +1,91 @@
+@font-face {
+	font-family: 'Coming Soon';
+	src: url('../fonts/coming-soon.ttf');
+}
+
+.anchor{
+	display: block; 
+	position: relative; 
+	top: -50px; 
+	visibility: collapse;
+}
+
+body {
+	background-image: url("../img/background.jpg");
+}
+
+.dropdown-menu {
+	/*width: 100%;*/
+}
+
+.container .well  {
+	background-color: rgba(255,255,255,0.65);
+	border-radius:20px;
+
+}
+
+.myBody {
+	/*padding-left: 20px;
+	padding-right: 20px;*/
+}
+
+
+
+.myHeader {
+	margin-top:15px;
+}
+
+.myHeader h1 {
+	font-family: 'Coming Soon';
+	font-size: 80px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: normal;
+}
+.navbar-brand {
+	font-family: 'Coming Soon';
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: normal;
+}
+
+
+
+.mySidebar {
+	/*top:280px;*/
+}
+
+
+.sidebar-entry {
+	/*width: 100%;*/
+	/*background-color: rgba(255,255,255,0);
+	border-color:  rgba(255,255,255,0);*/
+}
+
+.affix-top,.affix{
+	position: static;
+}
+
+@media (min-width: 979px) {
+	#sidebar.affix-top {
+		position: static;
+	}
+
+	#sidebar.affix {
+		position: fixed;
+		top:70px;
+	}
+}
+
+#sidebar li.active {
+	border:0 #eee solid;
+	border-right-width:5px;
+}
+
+.item-main-picture {
+	height:180px;
+	width:240px;
+	background-color: gray;
+}

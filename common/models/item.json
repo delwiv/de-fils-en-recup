@@ -1,0 +1,46 @@
+{
+  "name": "Item",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": true,
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "index": true
+    },
+    "tags": {
+      "type": [
+        "string"
+      ]
+    },
+    "pictures": {
+      "type": [
+        "string"
+      ],
+      "required": false
+    },
+    "id": {
+      "type": "string",
+      "id": true,
+      "generated": true,
+      "index": true
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "index": true
+    },
+    "category": {
+      "type": "category",
+      "id": false,
+      "required": false,
+      "index": false,
+      "comments": ""
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

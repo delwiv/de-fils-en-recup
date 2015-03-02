@@ -1,0 +1,36 @@
+<div class="myBody well col-md-10" ng-controller="ShopCtrl">
+	<span class="anchor" id="clothes"></span>
+	<div class="row">
+		<h1><span>Vêtements</span></h1>
+		<h4>Voici les vêtements disponibles actuellement</h4>
+		<div ng-show="logged" class="item col-md-3">
+			<form role="form" class="form">
+				<div class="form-group">
+					<input type="text" name="" class="form-control" ng-model="newitem.title" placeholder="Nom de l'article"/>
+					<textarea class="form-control" name="" ng-model="newItem.description"></textarea>
+				</div>
+				<button type="button" class="btn btn-success">Sauver</button>
+			</form>
+		</div>
+		<div ng-show="logged" ui-view="addItem">
+			
+		</div>
+		<div class="item col-md-3" ng-repeat="item in items">
+			<div ui-view="item">
+				
+			</div>
+		</div>
+	</div>
+	<!-- <span class="anchor" id="accessories"></span>
+	<div class="row">
+		<h1><span>Accessoires</span></h1>
+		<h4>Voici les accessoires disponibles actuellement</h4>
+		<div class="item" ng-repeat="item in accessories">
+		</div>		
+	</div>
+	<span class="anchor" id="contact"></span>
+	<div class="row">
+		<h1><span>Contact</span></h1>
+		<div ui-view="osmWidget"></div>
+	</div> -->
+</div>

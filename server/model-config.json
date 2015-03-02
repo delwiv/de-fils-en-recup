@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "sources": [
+    "loopback/common/models",
+    "loopback/server/models",
+    "../common/models",
+    "./models"
+    ]
+    },
+    "User": {
+      "dataSource": "mongoDB",
+      "public": false
+      },
+      "AccessToken": {
+        "dataSource": "mongoDB",
+        "public": true
+        },
+        "ACL": {
+          "dataSource": "mongoDB",
+          "public": false
+          },
+          "RoleMapping": {
+            "dataSource": "mongoDB",
+            "public": false
+            },
+            "Role": {
+              "dataSource": "mongoDB",
+              "public": false
+              },
+              "Item": {
+                "dataSource": "mongoDB",
+                "public": true
+                },
+                "Category": {
+                  "dataSource": "mongoDB",
+                  "public": true
+                  },
+                  "Home": {
+                    "dataSource": "mongoDB",
+                    "public": true
+                    },
+                    "UserDFER": {
+                      "dataSource": "mongoDB",
+                      "public": true
+                      },
+                      "Container": {
+                        "dataSource": "storage",
+                        "public": true
+                      }
+                    }

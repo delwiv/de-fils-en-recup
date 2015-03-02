@@ -1,0 +1,10 @@
+{
+  "name": "UserDFER",
+  "plural": "UsersDFER",
+  "base": "User",
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

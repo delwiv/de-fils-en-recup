@@ -1,0 +1,28 @@
+{
+  "name": "De fils en récup",
+  "version": "0.0.1",
+  "authors": [
+    "delwiv <delwiv@gmail.com>"
+  ],
+  "description": "Blog de vente d'accessoires et vêtements faits main",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "angular": "~1.3.8",
+    "bootstrap": "~3.3.1",
+    "angular-route": "~1.3.8",
+    "angular-resource": "~1.3.8",
+    "angular-ui-router": "~0.2.13",
+    "openlayers": "git://github.com/openlayers/openlayers.git",
+    "angular-file-upload": "~1.1.5"
+  }
+}

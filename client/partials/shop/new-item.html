@@ -1,0 +1,12 @@
+<!-- <div class="shopItem">
+
+		<input type="text" name="" ng-model="{{newItem.title}}" placeholder="Nom de l'article"/>
+		<textarea type="text" name="" ng-model="{{newItem.description}}" placeholder="Description de l'article"/>
+		<button type="button" class="btn btn-success">Sauver</button>
+	</form>
+</div>   -->
+<form class="form">
+	<img class="item-main-picture" src="{{item.dlPath}}"/> 
+	<h3>{{item.title}}</h3>
+	<button type="button" class="btn btn-success" ng-show="logged" ng-disabled="item.pictures" ng-click="updateItem(item)">Sauver</button>
+</form>
